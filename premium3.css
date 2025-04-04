@@ -1,0 +1,144 @@
+table{
+    height: 100vh;
+    width: 100% ;
+    border-collapse: collapse;
+    
+}
+#Linha-1
+{
+    
+    vertical-align: middle;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 5.88235294118;
+}
+#Linha-2{
+    height: 30px;
+    vertical-align: top;
+    white-space: nowrap;
+}
+#Linha-3{
+    height: 30px;
+    vertical-align: top;
+    white-space: nowrap;
+   
+}
+#Linha-4{
+ height: 38px;
+}
+#Linha-5{
+    height: 194px;
+}
+#Linha-6{
+    height: 44px;
+}
+#Linha-7{
+    height: 50px;
+}
+#Linha-8{
+ height: 43px;
+}
+#Linha-9{
+    height: 189px;
+}
+#Linha-10{
+    height: 105px;
+}
+#Linha-11{
+
+    background-color: black;
+    height: 89px;
+    width: 5.8%;
+    color: white;
+}
+#Linha-12{
+
+    background-color: black;
+    height: 110px;
+    width: 5.8%;
+    color: white;
+}
+#Linha-13{
+
+    background-color: black;
+    height: 48px;
+    width: 5.8%;
+    color: white;
+}
+#Linha-14{
+
+    background-color: black;
+    height: 22px;
+    width: 5.8%;
+    color: white;
+}
+#logo{
+
+    vertical-align: middle;
+    height: 44px;
+    width: 44px;
+}
+#jeju
+{
+        font-family: 'Jeju Myeongjo', serif; /* Aplica a fonte ao corpo do documento */
+        margin: 20px;
+        line-height: 1.6;
+}
+.pading{
+    padding: 10px;
+}
+.texto{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 0.9em;
+}
+#pesquisa{
+    border: none;
+    border-bottom: 2px solid white; /* Bordas só embaixo */
+    background: transparent; /* Sem fundo */
+    outline: none; /* Remove o contorno padrão do navegador */
+    
+    color:white;
+}
+.titulo {
+    font-family: 'Krona One', sans-serif; /* Aplica a fonte Krona One */
+    font-size: 1.5em;
+}
+.alinhamento_texto
+{
+    padding: 10px;
+    text-align: center;
+}
+.banner{
+    background-color: #C69180;
+    padding-left: 65px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.menu-opcoes {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: black;
+   
+    padding: 5px;
+    width: max-content;
+  }
+
+  td:hover .menu-opcoes {
+    display: block;
+  }
+
+  .menu-opcoes a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color:  white;
+  }
+
+  .menu-opcoes a:hover {
+    background: #ddd;
+  }
